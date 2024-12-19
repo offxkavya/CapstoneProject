@@ -140,3 +140,267 @@ body{
     color: #ccc;
     
   }
+  .yo{
+    text-align: center;
+    width: 60vw; 
+    
+  }
+  .yo p{
+    font-family: "Hepta Slab", serif;
+    font-size: 50px;
+    color: white;
+  }
+
+  #aligner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.contact{
+    height: 700px;
+    padding-top: 2px;
+    gap: 48px;
+    background-color: rgba(45, 39, 38, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:400px;
+    height:248px;
+    gap:32px
+}
+.content h1{
+    height:32px;
+    width:400px;
+    font-family:heptya slab;
+    font-weight:500;
+    font-size:28px;
+    line-height:32px;
+    letter-spacing:-1%;
+    text-align: center;
+    color:rgba(230, 216, 214, 1);
+}
+.contact-form{
+    width:600px;
+    height:64px;
+    gap: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.contact-form input{
+    width:56px;
+    height:64px;
+    border-radius:8px;
+    border:1.5px solid rgba(230, 216, 214, 0.2);
+    background-color:rgba(255, 255, 255, 0.16);
+}
+input::placeholder{
+    width:12px;
+    height:24px;
+    font:fira sans;
+    font-weight:400;
+    font-size:20px;
+    line-height:24px;
+    padding:10px 20px;
+}
+.button{
+    width:400px;
+    height:36px;
+    border-radius:8px;
+    padding:8px 16px;
+    margin-top:20px;
+    background-color:hsla(25, 88%, 66%, 1);
+}
+.content p{
+    width:30px;
+    height:20px;
+    font-family:fira sans;
+    font-weight:600;
+    font-size:15px;
+    line-height: 20px;
+    color:hsla(25, 88%, 66%, 1);
+    text-align:center
+}
+.lastskip{
+    margin-top: 0;
+}
+
+.footer {
+    margin-top: 10rem;
+    padding: 20px;
+  }
+  .footer-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+  }
+  @media (min-width: 768px) {
+    .footer-content {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  .copyright {
+    font-size: 20px;
+    color: rgba(209, 235, 235, 0.62);
+  }
+  .follow-btn {
+    background: none;
+    border: 1px solid #E6E6FF;
+    color: #E6E6FF;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    opacity: 0.5;
+  }
+  @media screen and (max-width: 1400px) {
+    .image {
+      width: 90%;
+      height: auto;
+      margin: 0 auto;
+    }
+    
+    .photo {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media screen and (max-width: 1200px) {
+    .nav {
+      width: 100%;
+      padding: 16px 20px;
+    }
+    
+    .hero h1 {
+      font-size: 60px;
+    }
+    
+    .yo p {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .nav-right a {
+      font-size: 24px;
+      margin-right: 30px;
+    }
+    
+    .nav-left {
+      font-size: 36px;
+    }
+    
+    .hero h1 {
+      font-size: 50px;
+    }
+    
+    .image-container {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-right a {
+      font-size: 20px;
+      margin-right: 20px;
+    }
+    
+    .nav-left {
+      font-size: 32px;
+      margin-left: 1.5rem;
+    }
+    
+    .hero h1 {
+      font-size: 40px;
+    }
+    
+    .yo p {
+      font-size: 30px;
+    }
+    
+    .contact-form {
+      width: 100%;
+      padding: 0 20px;
+    }
+    
+    .contact-form input {
+      width: 45px;
+      height: 50px;
+    }
+    
+    .button {
+      width: 80%;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .nav {
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+    }
+    
+    .nav-left {
+      margin: 10px 0;
+      text-align: center;
+    }
+    
+    .nav-right {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .nav-right a {
+      margin-right: 0;
+    }
+    
+    .hero h1 {
+      font-size: 32px;
+    }
+    
+    .yo {
+      width: 90vw;
+    }
+    
+    .yo p {
+      font-size: 24px;
+    }
+    
+    .image-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .contact-form {
+      gap: 8px;
+    }
+    
+    .contact-form input {
+      width: 40px;
+      height: 45px;
+    }
+    
+    .content h1 {
+      width: 100%;
+      font-size: 24px;
+    }
+    
+    .footer-content {
+      gap: 1rem;
+    }
+    
+    .copyright {
+      font-size: 16px;
+    }
+  }
