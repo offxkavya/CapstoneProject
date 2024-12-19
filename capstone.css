@@ -47,13 +47,13 @@ body{
     width: 1344px;
     height: 672px;
     margin-right: 70px;
-    margin-left: 70px;
+    margin-left: 90px;
 }
 
 
 .photo{
     object-fit: cover;
-    width: 1377px;
+    width: 1320px;
     border-radius: 22px;
     height: 672px;
 }
@@ -86,11 +86,14 @@ body{
     width: 400px;
     margin-top: 100px;
 } */
-.container1 img{
+/* .container1 img{
     height: 300px; 
     width: 350px; 
-    
-
+}
+.container2 img{
+    margin-left: 100px;
+    height: 375px;
+    width: 350px;
 }
 
 .containerb{
@@ -99,30 +102,41 @@ body{
     border: 2px solid black;
     margin: 0 auto;
     display: flex;
-}
+} */
+.image-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    scale: 0.9;
+  }
 
-.rect1{
-    height: 1237px;
-    width: 350px;
-    border: 2px solid rebeccapurple;
-    margin-top: 6rem;
+  .imagess {
+    display: flex;
+    flex-direction: column;
 
-}
+  }
 
-.rect2{
-    height: 1237px;
-    width: 416px;
-    border: 2px solid rebeccapurple;
-    margin-top: 4rem;
-    align-items: center;
-    margin-left: 65px;
-}
-.rect3{
-    height: 1237px;
-    width: 416px;
-    border: 2px solid rebeccapurple;
-    margin-top: 4rem;
-    align-items: center;
-    margin-left: 65px;
-    margin-right: 1px;
-}
+  .imagess img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  }
+
+  .imagess .text {
+    margin-top: 10px;
+    text-align: left;
+  }
+
+  .imagess .text h3 {
+    margin: 0;
+    font-size: 18px;
+    color: white;
+  }
+
+  .imagess .text p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #ccc;
+    
+  }
