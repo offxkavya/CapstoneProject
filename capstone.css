@@ -151,7 +151,7 @@ body{
     color: white;
   }
 
-  #aligner{
+  #helo{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -235,12 +235,15 @@ input::placeholder{
     margin-top: 10rem;
     padding: 20px;
   }
-  .footer-content {
+.footer-content {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 1rem;
     align-items: center;
+  }
+.btm{
+    font-family: "Hepta Slab", serif;
   }
   @media (min-width: 768px) {
     .footer-content {
@@ -248,21 +251,21 @@ input::placeholder{
       justify-content: space-between;
     }
   }
-  .copyright {
+.btm {
     font-size: 20px;
     color: rgba(209, 235, 235, 0.62);
   }
-  .follow-btn {
+.follow-btn {
     background: none;
-    border: 1px solid #E6E6FF;
-    color: #E6E6FF;
+    border: 1px solid #E6D8D69E;
+    color: #E6D8D69E;
     padding: 10px 20px;
     border-radius: 8px;
     font-size: 14px;
     cursor: pointer;
     opacity: 0.5;
   }
-  @media screen and (max-width: 1400px) {
+@media screen and (max-width: 1400px) {
     .image {
       width: 90%;
       height: auto;
@@ -400,7 +403,7 @@ input::placeholder{
       gap: 1rem;
     }
     
-    .copyright {
+    .btm {
       font-size: 16px;
     }
   }
